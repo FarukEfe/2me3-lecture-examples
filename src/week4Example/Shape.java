@@ -2,6 +2,9 @@ package week4Example;
 
 // Why? Shape can also be a concrete class
 
+class InvalidShapeException extends Exception {
+
+}
 
 abstract class Shape {
     protected String name;
